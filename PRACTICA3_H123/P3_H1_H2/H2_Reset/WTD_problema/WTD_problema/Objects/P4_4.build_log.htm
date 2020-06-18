@@ -1,0 +1,120 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ignacio blasco student Flex license: MDK Professional 5.29 (Flex): 200 user(s) (mdk_pro) Operation stops: 27 Jun 2020
+ 
+Tool Versions:
+Toolchain:       MDK Professional 5.29 (Flex): 200 user(s)  Version: 5.29.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DARMP1.DLL V1.27.0.0
+Target DLL:      CMSIS_AGDI.dll V1.32.0.0
+Dialog DLL:      TARMP1.DLL V1.26.0.0
+ 
+<h2>Project:</h2>
+C:\Users\nache\OneDrive\Escritorio\P3(1 Y 2) CORREGIDO\P3\Ap2\WTD_problema\WTD_problema\P4_4.uvprojx
+Project File Date:  03/26/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling WTDG.c...
+WTDG.h(5): warning:  #1295-D: Deprecated declaration initWTDG - give arg types
+  void initWTDG();
+WTDG.h(6): warning:  #1295-D: Deprecated declaration WTDG_Start - give arg types
+  void WTDG_Start();
+WTDG.h(7): warning:  #1295-D: Deprecated declaration feedWTDG - give arg types
+  void feedWTDG ();
+WTDG.h(8): warning:  #1295-D: Deprecated declaration clr_WTDG_Flag - give arg types
+  void clr_WTDG_Flag ();
+WTDG.h(11): warning:  #1-D: last line of file ends without a newline
+  int WDT_ReadTimeOutFlag (void);
+WTDG.c(50): warning:  #1-D: last line of file ends without a newline
+  }
+WTDG.c: 6 warnings, 0 errors
+compiling switch.c...
+switch.c(13): warning:  #1-D: last line of file ends without a newline
+   
+switch.c: 1 warning, 0 errors
+compiling led.c...
+compiling main.c...
+WTDG.h(5): warning:  #1295-D: Deprecated declaration initWTDG - give arg types
+  void initWTDG();
+WTDG.h(6): warning:  #1295-D: Deprecated declaration WTDG_Start - give arg types
+  void WTDG_Start();
+WTDG.h(7): warning:  #1295-D: Deprecated declaration feedWTDG - give arg types
+  void feedWTDG ();
+WTDG.h(8): warning:  #1295-D: Deprecated declaration clr_WTDG_Flag - give arg types
+  void clr_WTDG_Flag ();
+WTDG.h(11): warning:  #1-D: last line of file ends without a newline
+  int WDT_ReadTimeOutFlag (void);
+main.c: 5 warnings, 0 errors
+compiling Timer.c...
+compiling RGB.c...
+compiling GPDMA_LPC17xx.c...
+compiling GPIO_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling PIN_LPC17xx.c...
+compiling system_LPC17xx.c...
+linking...
+Program Size: Code=3268 RO-data=244 RW-data=28 ZI-data=772  
+".\Objects\P4_4.axf" - 0 Error(s), 12 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.6.0.pack
+                ARM.CMSIS.5.6.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.3.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC1700_DFP.2.6.0.pack
+                Keil.LPC1700_DFP.2.6.0
+                NXP LPC1700 Series Device Support, Drivers and Examples for MCB1700 and LPC1788-32
+   * Component: GPDMA Version: 1.2.0
+   * Component: GPIO Version: 1.1.0
+   * Component: PIN Version: 1.0.0
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\LPC1768
+  .\RTE\_Target_1
+  C:\Users\nache\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include
+  C:\Users\nache\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include
+  C:\Users\nache\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\RTE_Driver
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.3.0
+
+   * Component: Keil::Device:GPDMA:1.2.0
+      Source file:   RTE_Driver\GPDMA_LPC17xx.c
+      Include file:  RTE_Driver\GPDMA_LPC17xx.h
+
+   * Component: Keil::Device:GPIO:1.1.0
+      Source file:   RTE_Driver\GPIO_LPC17xx.c
+      Include file:  RTE_Driver\GPIO_LPC17xx.h
+
+   * Component: Keil::Device:PIN:1.0.0
+      Include file:  RTE_Driver\PIN_LPC17xx.h
+      Source file:   RTE_Driver\PIN_LPC17xx.c
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\system_LPC17xx.c
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Include file:  Device\Include\LPC17xx.h
+      Source file:   Device\Source\ARM\startup_LPC17xx.s
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

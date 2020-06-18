@@ -1,0 +1,7 @@
+t <form>
+t <text>
+t <id>medida</id>
+c q 1 <value>%s</value>
+t </text>
+t </form>
+.

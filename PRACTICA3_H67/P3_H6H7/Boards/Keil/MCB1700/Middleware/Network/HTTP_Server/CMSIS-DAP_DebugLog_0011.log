@@ -1,0 +1,31 @@
+CMSIS_AGDI.DLL - CMSIS-DAP Driver Log
+
+20:25:47:454 (30/03/2020) - START SEQUENCE "InitTarget", "default" - ID 0
+20:25:47:454 (30/03/2020) - START SEQUENCE "InitInternals", "default" - ID 1
+20:25:47:454 (30/03/2020) - START SEQUENCE "InitDriver", "default" - ID 2
+20:25:47:454 (30/03/2020) - END SEQUENCE "InitDriver", "success" - ID 3
+20:25:47:454 (30/03/2020) - START SEQUENCE "InitDebugger", "default" - ID 4
+20:25:47:528 (30/03/2020) - END SEQUENCE "InitDebugger", "success" - ID 5
+20:25:47:528 (30/03/2020) - END SEQUENCE "InitInternals", "success" - ID 6
+20:25:47:528 (30/03/2020) - START SEQUENCE "DebugPortSetup", "default" - ID 7
+20:25:47:541 (30/03/2020) - END SEQUENCE "DebugPortSetup", "success" - ID 8
+20:25:47:541 (30/03/2020) - START SEQUENCE "DebugGetDeviceList", "default" - ID 9
+20:25:47:545 (30/03/2020) - END SEQUENCE "DebugGetDeviceList", "success" - ID 10
+20:25:47:545 (30/03/2020) - START SEQUENCE "PDSCDebug_DebugGetDeviceNames", "default" - ID 11
+20:25:47:545 (30/03/2020) - END SEQUENCE "PDSCDebug_DebugGetDeviceNames", "success" - ID 12
+  20:25:47:545 (30/03/2020) - START SEQUENCE "DebugPortStart", "default" - ID 13
+  20:25:47:552 (30/03/2020) - END SEQUENCE "DebugPortStart", "failed" - ID 14
+20:25:49:560 (30/03/2020) - END SEQUENCE "InitTarget", "failed" - ID 15
+20:25:49:560 (30/03/2020) - START SEQUENCE "StopTarget", "default" - ID 16
+  20:25:49:567 (30/03/2020) - READ  AP  Access, AP 0x00000000, Addr 0x000000FC, Val 0xFFFFFFFF, "SWD Read AP - FAILED" - ID 0
+20:25:49:567 (30/03/2020) - WRITE MEM BLOCK Access, AP 0x00000000, Start Addr 0x00000000, End Addr 0x00000007, "DAP Write Memory Block - FAILED" - ID 1
+20:25:49:567 (30/03/2020) - START SEQUENCE "_UnInitTrace", "default" - ID 17
+20:25:49:567 (30/03/2020) - END SEQUENCE "_UnInitTrace", "success" - ID 18
+20:25:49:567 (30/03/2020) - START SEQUENCE "DebugPortStop", "default" - ID 19
+20:25:49:575 (30/03/2020) - WRITE DP  Access, Addr 0x00000004, Val 0x00000000, "DAP Write DP - Failed" - ID 2
+20:25:49:575 (30/03/2020) - END SEQUENCE "DebugPortStop", "failed" - ID 20
+20:25:49:575 (30/03/2020) - START SEQUENCE "UnInitDebugger", "default" - ID 21
+20:25:49:580 (30/03/2020) - END SEQUENCE "UnInitDebugger", "success" - ID 22
+20:25:49:580 (30/03/2020) - START SEQUENCE "_UnInitDriver", "default" - ID 23
+20:25:49:580 (30/03/2020) - END SEQUENCE "_UnInitDriver", "success" - ID 24
+20:25:49:580 (30/03/2020) - END SEQUENCE "StopTarget", "success" - ID 25

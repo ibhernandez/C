@@ -1,0 +1,2 @@
+SIMULA Temp= 10.0 ºC
+SIMULA Temp=-10.0 ºC

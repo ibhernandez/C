@@ -1,0 +1,12 @@
+.\debug\adc_mcb1700.o: C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.6.0\Boards\Keil\MCB1700\Common\ADC_MCB1700.c
+.\debug\adc_mcb1700.o: C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.6.0\Device\Include\LPC17xx.h
+.\debug\adc_mcb1700.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h
+.\debug\adc_mcb1700.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\debug\adc_mcb1700.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h
+.\debug\adc_mcb1700.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h
+.\debug\adc_mcb1700.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h
+.\debug\adc_mcb1700.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h
+.\debug\adc_mcb1700.o: C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h
+.\debug\adc_mcb1700.o: C:\Keil_v5\ARM\PACK\Keil\LPC1700_DFP\2.6.0\RTE_Driver\PIN_LPC17xx.h
+.\debug\adc_mcb1700.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\debug\adc_mcb1700.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.10.0\Board\Board_ADC.h

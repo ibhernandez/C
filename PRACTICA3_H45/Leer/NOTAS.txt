@@ -1,0 +1,6 @@
+LA APLICACION SIGUE LOS SIGUIENTES PASOS:
+	   LEE LAS 16 PRIMERAS POSICIONES DEL SECTOR 8 (0x8000) MEDIANTE LA SIGUIENTE FUNCION:
+		memcpy(read, (void *)0x8000, 16); 
+			 read: array de 16 posiciones
+		Guarda en read 16 bytes contenidos en la memoria desde 0x8000 incluido 
+	
