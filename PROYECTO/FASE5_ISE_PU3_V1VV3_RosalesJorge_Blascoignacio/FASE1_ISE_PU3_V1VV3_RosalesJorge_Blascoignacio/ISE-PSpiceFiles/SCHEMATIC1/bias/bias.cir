@@ -1,0 +1,22 @@
+** Profile: "SCHEMATIC1-bias"  [ c:\users\nache\onedrive\escritorio\ise\simulaciones orcad\ise-pspicefiles\schematic1\bias.sim ] 
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "C:\Users\nache\OneDrive\Escritorio\ISE\SIMULACIONES ORCAD\COMPONENTES\Regulador 3.3\TLV75533P_TRANS.lib" 
+.lib "C:\Users\nache\OneDrive\Escritorio\ISE\SIMULACIONES ORCAD\COMPONENTES\INA122_PSPICE_AIO\INA122.LIB" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1s 0 1e-3 
+.STEP LIN PARAM Rtd 923 1231 19.25 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

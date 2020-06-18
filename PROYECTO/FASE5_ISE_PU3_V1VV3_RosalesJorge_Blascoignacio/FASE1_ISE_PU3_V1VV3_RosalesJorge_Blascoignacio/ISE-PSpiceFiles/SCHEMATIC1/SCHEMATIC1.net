@@ -1,0 +1,21 @@
+* source ISE
+R_Rh2         N06018 N06106  4.7 TC=0,0 
+R_Rh3         0 N06018  4.7 TC=0,0 
+R_Rl         0 VO  100k TC=0,0 
+R_RTD         N06018 N05894  {Rtd} TC=0,0 
+R_R2         VN 2V5  1k TC=0,0 
+R_R3         N06106 VN  923 TC=0,0 
+R_R1         VP 2V5  1k TC=0,0 
+X_U1         VP VN 0V4 3V3 0 N05834 N05980 VO INA122
+R_Rg         N05980 N05834  21900 TC=0,0 
+R_Rh1         N05894 VP  4.7 TC=0,0 
+R_R5         2V5 3V3  6.49 TC=0,0 
+R_R4         0 0V4  3.24 TC=0,0 
+C_Cin         0 5V  1u  TC=0,0 
+C_Cout         0 3V3  0.47u  TC=0,0 
+X_U2         5V 0 5V 3V3 0 TLV75533P_TRANS
+V_V6         5V 0  
++SIN 5 0.25 50 0 0 0
+R_R6         0V4 2V5  17 TC=0,0 
+C_Cd1         0 3V3  0.1u  TC=0,0 
+.PARAM  rtd=923

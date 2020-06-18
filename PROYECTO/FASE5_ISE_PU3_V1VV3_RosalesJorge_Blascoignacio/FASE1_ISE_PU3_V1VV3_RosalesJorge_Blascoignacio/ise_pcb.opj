@@ -1,0 +1,40 @@
+(ExpressProject "ise_pcb"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB - PSpice")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "c:\cadence\spb_17.2\tools\capture\LIBRARY\PSPICE\analog.olb"
+        (Type "Schematic Library"))
+      (File "c:\cadence\spb_17.2\tools\capture\LIBRARY\PSPICE\source.olb"
+        (Type "Schematic Library"))
+      (File "c:\cadence\spb_17.2\tools\capture\LIBRARY\PSPICE\sourcstm.olb"
+        (Type "Schematic Library"))
+      (File "c:\cadence\spb_17.2\tools\capture\LIBRARY\PSPICE\special.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\ise_pcb.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 420"))
+      (Tab 0)))
+  (MPSSessionName "nache"))

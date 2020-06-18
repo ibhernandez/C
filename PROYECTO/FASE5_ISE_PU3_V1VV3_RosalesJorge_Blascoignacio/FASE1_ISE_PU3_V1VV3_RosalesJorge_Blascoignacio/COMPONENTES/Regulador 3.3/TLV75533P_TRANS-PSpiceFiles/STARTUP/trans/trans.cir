@@ -1,0 +1,20 @@
+** Profile: "STARTUP-trans"  [ C:\FPT_WS\FPT_DS\Part_Numbers\TLV75533P\Active_Work_FPT\PSPICE\TLV75533P_PSPICE_TRANS\tlv75533p_trans-pspicefiles\startup\trans.sim ] 
+
+** Creating circuit file "trans.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../tlv75533p_trans.lib" 
+* From [PSPICE NETLIST] section of C:\Cadence\SPB_16.2\tools\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 2m 0 20n 
+.OPTIONS TNOM= 25.0
+.PROBE V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\STARTUP.net" 
+
+
+.END

@@ -1,0 +1,71 @@
+
+**** 04/27/20 14:56:46 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ c:\users\nache\onedrive\escritorio\ise\simulaciones orcad\ise-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "C:\Users\nache\OneDrive\Escritorio\ISE\SIMULACIONES ORCAD\COMPONENTES\Regulador 3.3\TLV75533P_TRANS.lib" 
+.lib "C:\Users\nache\OneDrive\Escritorio\ISE\SIMULACIONES ORCAD\COMPONENTES\INA122_PSPICE_AIO\INA122.LIB" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1s 0 1e-3 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source ISE
+R_Rh2         N06018 N06106  4.7 TC=0,0 
+R_Rh3         0 N06018  4.7 TC=0,0 
+R_Rl         0 VIN  100k TC=0,0 
+R_RTD         N06018 N05894  {Rtd} TC=0,0 
+R_R2         VN 2V5  1k TC=0,0 
+R_R3         N06106 VN  923 TC=0,0 
+R_R1         VP 2V5  1k TC=0,0 
+X_U1         VP VN 0V4 3V3 0 N05834 N05980 VIN INA122
+R_Rg         N05980 N05834  22397 TC=0,0 
+R_Rh1         N05894 VP  4.7 TC=0,0 
+R_R5         2V5 3V3  6.49 TC=0,0 
+R_R4         0 0V4  3.24 TC=0,0 
+C_Cin         0 5V  1u  TC=0,0 
+C_Cout         0 3V3  0.47u  TC=0,0 
+X_U2         5V 0 5V 3V3 0 TLV75533P_TRANS
+V_V6         5V 0  
++SIN 5 0.25 50 0 0 0
+R_R6         0V4 2V5  17 TC=0,0 
+C_Cd1         0 3V3  0.1u  TC=0,0 
+C_Cd2         0 3V3  0.1u  TC=0,0 
+C_Cd3         0 3V3  1u  TC=0,0 
+C_Cosc1         0 N21003  30p  TC=0,0 
+C_Cosc2         0 N21015  30p  TC=0,0 
+.PARAM  rtd=923
+
+**** RESUMING bias.cir ****
+.END
+
+ERROR(ORPSIM-15141): Less than 2 connections at node N21003.
+
+ERROR(ORPSIM-15141): Less than 2 connections at node N21015.
+
+ERROR(ORPSIM-15142): Node N21003 is floating
+
+ERROR(ORPSIM-15142): Node N21015 is floating
+
